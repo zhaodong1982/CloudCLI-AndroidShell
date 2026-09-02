@@ -1,0 +1,30 @@
+# Build and release artifacts
+/build/
+/output/
+*.apk
+*.apks
+*.aab
+*.idsig
+
+# Rejected/generated artwork kept only for local comparison
+/artwork/rejected-v1/
+
+# Signing material and secrets
+*.jks
+*.keystore
+*.pem
+*.key
+keystore-password
+.env
+.env.*
+!.env.example
+/private/
+/secrets/
+
+# Local Android/IDE state
+local.properties
+/.gradle/
+/.idea/
+*.iml
+.DS_Store
+
